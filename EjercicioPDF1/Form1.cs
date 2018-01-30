@@ -27,7 +27,7 @@ namespace EjercicioPDF1
             Int32[] array = { 12, 18, 6, 42, 44, 52, 67, 94 };//creamos un array con los valores dados
             printArray(lb_array, array);//llamaos a una funcion para imprimir el array
 
-            Classificacio(array);
+            Classificacio(array);//llamamos al metodo que va a ordenar el array
             printArray(lb_res, array);
         }
         private void Classificacio(Int32[] array)
@@ -45,7 +45,7 @@ namespace EjercicioPDF1
                 }
             }
         }
-        public void printArray(Label lb, Int32[] array)
+        public void printArray(Label lb, Int32[] array)//en esta funcion con un for imprimimos todas las pos disponibles del array convirtiendoas a string
         {
             for (i = 0; i < array.Length; i++)
             {
