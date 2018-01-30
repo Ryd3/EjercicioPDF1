@@ -12,7 +12,7 @@ namespace EjercicioPDF1
 {
     public partial class Form1 : Form
     {
-        Int32 i, j, aux;
+        Int32 i, j, aux;//prieba de comentario GitHub
         public Form1()
         {
             InitializeComponent();
