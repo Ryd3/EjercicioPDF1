@@ -12,7 +12,7 @@ namespace EjercicioPDF1
 {
     public partial class Form1 : Form
     {
-        Int32 i, j, numAux;//prieba de comentario GitHub
+        Int32 i, j, numAux;//prieba de comentario GitHuba
         //variables i y j se inicializan en los for por lo tanto aqui no le damos valor
         //creamos la variable i para mover el array y coger la primera pos
         //la variable j la usaremos apra mover el array e ir comparando la pos del array[i] con las pos del array[j]
